@@ -1,0 +1,12 @@
+main {
+    background-color: #f9f6f7;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+      grid-template-rows: 25px auto 25px 1fr;
+    grid-template-areas: 
+    '. . . '
+    '. form .'
+    '. . . '
+    '. card .';
+}

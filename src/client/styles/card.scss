@@ -1,0 +1,57 @@
+.formSearch {
+    grid-area : form;
+    display: flex;
+    justify-content: center;
+    input {
+        padding: 10px!important;
+        margin-right: 10px;
+        border-radius: 25px;
+        border-color: #cccccc!important;
+        padding: 5px;
+        font-size:18px;
+        margin-right: 20px!important;
+        &:focus {
+                outline: none;
+        }
+    }
+    button {
+        border-radius: 15px;
+        background-color: #09c09c;
+        border: none;
+        width: 150px;
+        font-weight: 600!important;
+        font-size: 18px!important;
+        padding: 12px!important;
+        &:hover {
+            cursor: pointer;
+            background-color: #43ebc9;
+        
+        }
+    }
+
+
+}
+
+#date {
+    padding: 8px!important;
+}
+
+.cardContainer {
+    grid-area : card;
+    
+    .card {
+        border-radius: 15px;
+        border: 1.5px black dashed;
+        padding: 25px!important ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:auto;
+        img {
+            width:250px;
+            margin-right: 25px;
+            border-radius: 25px;
+            box-shadow: grey 2px 2px ;
+        }
+    }
+}

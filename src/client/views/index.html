@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Udacity Capestone | Travel App</title>
+    </head>
+
+    <body>
+
+        <header>
+           <h1><span>T</span>raveller <span>C</span>ompanion</h1>
+        </header>
+
+        <main>
+            <section class="formSearch">
+                    <input type="text" placeholder="Location" id="location">
+                    <input type="date" id="date">
+                    <button onclick="Client.handleSubmit()" id = "submit" > Search</button>
+            </section>
+
+            <section class="cardContainer">
+                <div class="card">
+                   <img src="../../../3050010.jpg" alt="">
+                   <div>
+                       <h2 id="locationResult">Paris</h2>
+                        <h2 id="dateResult">20-20-20</h2>
+                        <h3 id="weatherResult">37</h3>
+                   </div>
+                </div>  
+            </section>
+        </main>
+
+        <footer>
+            <p>© Copy Rights reserved to Mohamed Hosny</p>
+        </footer>
+
+        <!-- <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script> -->
+    </body>
+</html>
